@@ -6,7 +6,73 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="main-title">Hello, World!</h1>
-  <p class="paragraph">This is a paragraph styled using a class.</p>
-</body>
+    <header>
+        <h1>اسمك الكامل</h1>
+        <p><strong>البريد:</strong> your.email@example.com | <strong>جوال:</strong> 0500000000</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">حول</a></li>
+            <li><a href="#skills">المهارات</a></li>
+            <li><a href="#education">التعليم</a></li>
+            <li><a href="#contact">تواصل</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>عنّي</h2>
+        <p>أكتب نبذة قصيرة عنك هنا.</p>
+    </section>
+
+    <section id="skills">
+        <h2>المهارات</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>استخدام النماذج</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>التعليم</h2>
+        <table>
+            <caption>المؤهلات التعليمية</caption>
+            <tr>
+                <th>الدرجة</th>
+                <th>الجامعة</th>
+                <th>السنة</th>
+            </tr>
+            <tr>
+                <td>بكالوريوس</td>
+                <td>جامعة التقنية</td>
+                <td>2025</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>نموذج التواصل</h2>
+        <form>
+            <fieldset>
+                <legend>معلومات التواصل</legend>
+
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">البريد:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="message">رسالتك:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+                <input type="submit" value="إرسال">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p>جميع الحقوق محفوظة © 2025</p>
+    </footer>
 </html>
