@@ -11,7 +11,7 @@ body {
 
 .h-font {
     font-family: 'Edu QLD Beginner', cursive;
-    font-size: 400;
+    font-size: 550;
 }
 body::before {
     content: "";
@@ -33,7 +33,7 @@ html{
 }
 .nav-link:hover {
     transform: scale(1.1);
-    color: #172b52;
+    color: #c91007;
 }
 header {
     background-color: #665E5D;
