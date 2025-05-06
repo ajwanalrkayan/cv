@@ -33,14 +33,14 @@ html{
     color: #172b52;
 }
 header {
-    background-color: #003366;
+    background-color: #665E5D;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #0059b3;
+    background-color: #665E5D;
     padding: 10px;
     text-align: center;
 }
@@ -91,6 +91,6 @@ form {
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #003366;
+    background-color: #665E5D;
     color: white;
 }
