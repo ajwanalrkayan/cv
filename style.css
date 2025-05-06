@@ -49,6 +49,44 @@ body::before {
     background-color:rgba(255, 255, 255,0.5) ;
     z-index: -1;
 }
+.education-box {
+    background-color: #AF766F;
+    padding: 30px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px;
+    color: white;
+}
+  
+.education-box table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+.education-box caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: white;
+}
+  
+.education-box th,
+.education-box td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+  
+.education-box th {
+    background-color: #d8b4ad;
+}
+
 html{
     scroll-behavior: smooth;
 }
