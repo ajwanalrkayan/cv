@@ -10,7 +10,7 @@ html{
 .nav-link{
     color: #cbcfdb;
     text-decoration: dotted;
-    transition: transform 0.2s; color 0.2s ease;
+    transition: transform 0.2s ease;
 }
 .nav-link:hover {
     transform: scale(1.1);
