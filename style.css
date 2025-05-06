@@ -4,7 +4,18 @@ body {
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+.nav-link{
+    color: #cbcfdb;
+    text-decoration: dotted;
+    transition: transform 0.2s; color 0.2s ease;
+}
+.nav-link:hover {
+    transform: scale(1.1);
+    color: #172b52;
+}
 header {
     background-color: #003366;
     color: white;
