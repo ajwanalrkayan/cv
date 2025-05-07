@@ -80,10 +80,7 @@ section h2 { margin-bottom: 15px; }
     list-style: square;/*style for li in ul*/
     margin: 0;
     padding-left: 20px;
-}
-.skills-table te:hover {
-    background-color: #b31f17;
-}
+
 /*certificates*/
 .education-box {
     background-color: #AF766F;
@@ -91,6 +88,7 @@ section h2 { margin-bottom: 15px; }
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
 .cert-list { 
     list-style:decimal;
     margin: 0;
