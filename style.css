@@ -124,8 +124,8 @@ footer {
     color: white;
 }
 .profile-picture {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 3px solid #2e2723;
+    width: 80px;        /* حجم العرض */
+    height: 80px;       /* حجم الارتفاع */
+    border-radius: 50%; /* لجعلها دائرية */
+    border: 2px solid #2e2723; /* لون وحجم الإطار */
 }
