@@ -33,14 +33,14 @@ nav { /*for navigations table bg */
     padding: 10px;
     text-align: center;
 }
-nav ul { list-style:armenian; padding: 0; }
-nav li { display: inline; margin: 0 15px; }
-nav a {
+nav ul { list-style:armenian; padding: 0; }/*syle the ul lists*/
+nav li { display: inline; margin: 0 15px; }/*style for each ele not vertical */
+nav a {/*for each link in nav */
     color: white;
     text-decoration: none;
     transition: transform 0.2s ease;
 }
-.nav-link:hover { /* for hover effect */
+.nav-link:hover { /* for hover effect in nav */
     transform: scale(1.1);
     color: #c91007;
 }
@@ -51,7 +51,7 @@ section h2 { margin-bottom: 15px; }
 /*about*/
 .about-box {
     background-color: #D8C8AD;
-    border-radius: 15px;
+    border-radius: 15px;/*male the edges less sharp*/
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
@@ -64,23 +64,26 @@ section h2 { margin-bottom: 15px; }
 }
 .skills-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /*remov whitespace*/
 }
-.skills-table th, .skills-table td {
+.skills-table th, .skills-table td { /*style for each head and cell*/
     border: 1px solid #ccc;
+    color: #b31f17;
     padding: 12px;
-    vertical-align: top;
+    vertical-align: top; /*start ul list form top*/
 }
-.skills-table th {
+.skills-table th {/**/
     background-color: #ddd;
     text-align: left;
 }
 .skills-table ul {
-    list-style: square;
+    list-style: square;/*style for li in ul*/
     margin: 0;
     padding-left: 20px;
 }
-
+.skills-table te:hover {
+    background-color: #b31f17;
+}
 /*certificates*/
 .education-box {
     background-color: #AF766F;
