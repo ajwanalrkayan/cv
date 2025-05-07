@@ -191,3 +191,22 @@ footer {
     background-color: #665E5D;
     color: white;
 }
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .left-skills, .right-skills ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  .right-skills {
+    flex: 1 1 45%;
+  }
+  
+  .left-skills {
+    flex: 1 1 45%;
+  }
