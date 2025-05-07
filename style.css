@@ -68,7 +68,7 @@ section h2 { margin-bottom: 15px; }
 }
 .skills-table th, .skills-table td { /*style for each head and cell*/
     border: 1px solid #ccc;
-    color: #b31f17;
+    color: #3c3232;
     padding: 12px;
     vertical-align: top; /*start ul list form top*/
 }
