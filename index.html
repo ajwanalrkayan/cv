@@ -1,21 +1,22 @@
-<!DOCTYPE html>
+<!DOCTYPE html> /*spicify the type of the document*/
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Test Page</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap" rel="stylesheet"> /*link to get fornt fom external library*/
 </head>
 <body>
 
-  <header>
+  <header> /*=collect upper contents*/
     <img src="profilepic.jpg" alt="picture" class="prfile-picture">
     <h1 class="h-font">Ajwan Zakaria Abdullah Alrkayan</h1>
-    <p><strong>Email:</strong> ajwanalrkayan@gmail.com | <strong>Phone:</strong> 0557517541</p>
+    <p><strong>Email:</strong> ajwanalrkayan@gmail.com |
+         <strong>LInkedIn</strong> </p>
   </header>
 
-  <nav>
-    <ul>
+  <nav>/*= go to diff part in the same page*/
+    <ul>/*unorder list */
       <li><a href="#about" class="nav-link">Me</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#education" class="nav-link">Certificates</a></li>
@@ -23,7 +24,7 @@
     </ul>
   </nav>
 
-  <section id="about" class="about-box">
+  <section id="about" class="about-box"> /*=group related contants*/
     <h2>About Me</h2>
     <p>
         With over four years of expertise and passion in digital art software and one year interacting with Graphical user interface design,
@@ -32,23 +33,22 @@
     </p>
   </section>
 
-  <!-- Skills as table with two columns -->
   <section id="skills" class="skills-box">
     <h2>Skills</h2>
-    <table class="skills-table">
+    <table class="skills-table">/*=table 2 rows*/
       <tr>
-        <th>Technical Skills</th>
-        <th>Soft Skills</th>
+        <th>Technical Skills</th>/*=table header1*/
+        <th>Soft Skills</th>/*=table header2*/
       </tr>
       <tr>
-        <td>
+        <td>/*=hold content in row1*/
           <ul>
             <li>python,HTML,CSS Basics</li>
             <li>Graphical user interface Design</li>
             <li>Research skills</li>
           </ul>
         </td>
-        <td>
+        <td>/*=hold contant in row2*/
           <ul>
             <li>Fast Learner</li>
             <li>Multitasking</li>
@@ -59,16 +59,15 @@
     </table>
   </section>
 
-  <!-- Certificates as simple list -->
   <section id="education" class="education-box">
     <h2>Certificates</h2>
-    <ul class="cert-list">
+    <ol class="cert-list">
       <li>Database Foundations--Oracle Academy (2023)</li>
       <li>Basics of Cisco Networking--Coursera (2024)</li>
       <li>Basics of python--Coursera (2024)</li>
       <li>HTML Essentials-- Cisco (2025)</li>
       <li>Design Thinking Workshop-- Human Resources (2025)</li>
-    </ul>
+    </ol>
   </section>
 
   <!-- New Projects section -->
