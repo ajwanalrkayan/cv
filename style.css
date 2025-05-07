@@ -1,187 +1,122 @@
-/* الخط والخلفية */
+/* Base */
 body {
     background-color: #f5f5f5;
     background-image: url("picture1.png");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     position: relative;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
 body::before {
     content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
     background-color: rgba(255, 255, 255, 0.5);
     z-index: -1;
 }
+html { scroll-behavior: smooth; }
 
-html {
-    scroll-behavior: smooth;
-}
-
-/* الهيدر */
+/* Header */
 header {
     background-color: #665E5D;
     color: white;
     padding: 20px;
     text-align: center;
 }
-
 .h-font {
     font-family: 'Edu QLD Beginner', cursive;
     font-weight: 600;
 }
 
-/* القائمة */
+/* Navigation */
 nav {
     background-color: #493f3e;
     padding: 10px;
     text-align: center;
 }
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin: 0 15px;
-}
-
+nav ul { list-style: none; padding: 0; }
+nav li { display: inline; margin: 0 15px; }
 nav a {
     color: white;
     text-decoration: none;
-}
-
-.nav-link {
-    color: #cbcfdb;
-    text-decoration: dotted;
     transition: transform 0.2s ease;
 }
-
 .nav-link:hover {
     transform: scale(1.1);
     color: #c91007;
 }
 
-/* الأقسام */
-section {
-    padding: 20px;
-}
+/* Sections common */
+section { padding: 20px; margin: 40px auto; width: 80%; max-width: 800px; }
+section h2 { margin-bottom: 15px; }
 
-/* فقرة About */
+/* About */
 .about-box {
     background-color: #D8C8AD;
-    padding: 30px;
-    margin: 40px auto;
-    width: 80%;
-    max-width: 600px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
 
-/* فقرة Skills */
+/* Skills */
 .skills-box {
-    background-color: #ABAA99; 
-    padding: 30px;
-    margin: 40px auto;
-    width: 80%;
-    max-width: 600px;
+    background-color: #ABAA99;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-.skills-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
 }
-
-.left-skills, .right-skills {
-    flex: 1 1 45%;
+.skills-table th, .skills-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    vertical-align: top;
 }
-
-.left-skills, .right-skills ul {
+.skills-table th {
+    background-color: #ddd;
+    text-align: left;
+}
+.skills-table ul {
     list-style: square;
+    margin: 0;
     padding-left: 20px;
 }
 
-/* فقرة Education */
+/* Certificates */
 .education-box {
     background-color: #AF766F;
-    padding: 30px;
-    margin: 40px auto;
-    width: 90%;
-    max-width: 800px;
+    color: white;
     border-radius: 15px;
-    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-.education-box table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: white;
-    color: #333;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.education-box caption {
-    caption-side: top;
-    font-weight: bold;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-    color: white;
-}
-
-.education-box th, .education-box td {
-    padding: 12px;
-    border: 1px solid #ccc;
-    text-align: left;
-}
-
-.education-box th {
-    background-color: #d8b4ad;
-}
-
-/* فقرة Contact */
-.contact-box {
-    background-color: #75828B;
-    padding: 30px;
-    margin: 40px auto;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 15px;
-    color: white;
-    text-align: left;
-}
-
-.contact-box ul {
+.cert-list {
     list-style: none;
+    margin: 0;
     padding-left: 0;
 }
-
-.contact-box li {
-    margin-bottom: 10px;
+.cert-list li {
+    margin-bottom: 8px;
 }
 
-form {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
+/* Projects */
+.projects-box {
+    background-color: #75828B;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.projects-box ul {
+    list-style: none;
+    padding-left: 20px;
+}
+.projects-box li {
+    margin-bottom: 8px;
 }
 
-/* التذييل */
+/* Footer */
 footer {
     text-align: center;
     padding: 15px;
