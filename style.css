@@ -124,8 +124,8 @@ footer {
     color: white;
 }
 .prfile-picture {
-    width: 80px;        /* حجم العرض */
-    height: 80px;       /* حجم الارتفاع */
+    width: 129px;        /* حجم العرض */
+    height: 120px;       /* حجم الارتفاع */
     border-radius: 50%; /* لجعلها دائرية */
-    border: 2px solid #2e2723; /* لون وحجم الإطار */
+    border: 3px solid #443730; /* لون وحجم الإطار */
 }
