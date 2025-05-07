@@ -49,23 +49,17 @@ body::before {
     background-color:rgba(255, 255, 255,0.5) ;
     z-index: -1;
 }
-.skills-wrapper {
+.skills-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 20px;
-    margin: 40px auto;
-    width: 90%;
-    max-width: 900px;
-  }
+}
   
-  .skills-box, .extra-skills {
-    background-color: #ffffffcc;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.left-skills, .right-skills {
     flex: 1 1 45%;
-  }
+    list-style: square;
+}
 .education-box {
     background-color: #AF766F;
     padding: 30px;
