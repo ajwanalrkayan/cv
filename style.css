@@ -31,6 +31,9 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
 .email-link:hover, .external:hover {
     background-color: #3c3232;
     color: #c91007;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 header { /* simple style */
     background-color: #665E5D;
