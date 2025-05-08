@@ -16,7 +16,10 @@ body::before { /* ele content behind body for visual purpose */
     z-index: -1; /* place it behind the content */
 }
 html { scroll-behavior: smooth; } /* smooth when go through pages parts */
-
+.email-link {
+    text-decoration: none;
+    color: #e5d9d7;
+}
 header { /* simple style */
     background-color: #665E5D;
     color: white;
