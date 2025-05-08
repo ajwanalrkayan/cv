@@ -20,13 +20,22 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
 .email-link {
     text-decoration: none;
     color: #e5d9d7;
-    display: block;
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
     margin-bottom: 10px;
+
 }
 .external {
     text-decoration: none;
     color: #e5d9d7;
-    display: block;
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
 }
 .email-link:hover, .external:hover {
     background-color: #3c3232;
@@ -34,11 +43,14 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
     padding: 5px 10px;
     border-radius: 8px;
     font-size: 18px;
+    transform: scale(1.05);
 }
 header { /* simple style */
     background-color: #665E5D;
-    color: white;
-    padding: 20px;
+    color: rgb(211, 199, 199);
+    padding: 6px 12px;
+    font-size: 18px;
+    transform: scale(1.05);
     text-align: center;
 }
 .h-font { /* for all the content */
