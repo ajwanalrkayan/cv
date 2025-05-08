@@ -28,6 +28,10 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
     color: #e5d9d7;
     display: block;
 }
+.email-link:hover, .external:hover {
+    background-color: #3c3232;
+    color: #c91007;
+}
 header { /* simple style */
     background-color: #665E5D;
     color: white;
