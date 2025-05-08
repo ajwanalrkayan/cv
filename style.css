@@ -17,7 +17,7 @@ body::before { /* ele content behind body for visual purpose */
 }
 html { scroll-behavior: smooth; } /* smooth when go through pages parts */
 
-.email-link {
+.email-link {/* style for email*/
     text-decoration: none;
     color: #e5d9d7;
     display: inline-block;
@@ -28,7 +28,7 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
     margin-bottom: 10px;
 
 }
-.external {
+.external {/* style for linkedin */
     text-decoration: none;
     color: #e5d9d7;
     display: inline-block;
@@ -37,7 +37,7 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
     border-radius: 8px;
     transition: all 0.3s ease;
 }
-.email-link:hover, .external:hover {
+.email-link:hover, .external:hover { /*hover effect for each one */
     background-color: #3c3232;
     color: #c91007;
     padding: 5px 10px;
@@ -95,6 +95,10 @@ section h2 { margin-bottom: 15px; }
 .skills-table {
     width: 100%;
     border-collapse: collapse; /*remov whitespace*/
+}
+.skills-table:hover{
+    background-color: #727263;
+    color: #efefe6;
 }
 .skills-table th, .skills-table td { /*style for each head and cell*/
     border: 1px solid #ccc;
