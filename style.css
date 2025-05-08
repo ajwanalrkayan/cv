@@ -46,6 +46,10 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
     transform: scale(1.05);
 }
 header { /* simple style */
+    background-image: url(headerng.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #665E5D;
     color: rgb(211, 199, 199);
     padding: 6px 12px;
