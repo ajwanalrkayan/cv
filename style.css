@@ -121,6 +121,10 @@ section h2 { margin-bottom: 15px; }
 }
 /*certificates*/
 .education-box {
+    background-image: url(confpic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #AF766F;
     color: white;
     border-radius: 15px;
