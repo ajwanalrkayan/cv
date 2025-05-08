@@ -19,6 +19,11 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
 .email-link {
     text-decoration: none;
     color: #e5d9d7;
+    padding: 0;
+}
+.external {
+    text-decoration: none;
+    color: #e5d9d7;
 }
 header { /* simple style */
     background-color: #665E5D;
