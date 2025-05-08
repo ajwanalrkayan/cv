@@ -20,13 +20,13 @@ html { scroll-behavior: smooth; } /* smooth when go through pages parts */
 .email-link {
     text-decoration: none;
     color: #e5d9d7;
-    padding: 0;
-    gap: 2rem;align-items: center;
+    display: block;
+    margin-bottom: 10px;
 }
 .external {
     text-decoration: none;
     color: #e5d9d7;
-    gap: 2rem;
+    display: block;
 }
 header { /* simple style */
     background-color: #665E5D;
